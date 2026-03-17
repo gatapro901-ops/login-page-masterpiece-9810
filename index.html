@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/lucide.js"></script>
+</head>
+<body>
+    <div class="container animate__animated animate__fadeInUp">
+        <h1 class="title">تسجيل الدخول</h1>
+        <form>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="الإيميل" class="animate__animated animate__zoomIn">
+                <lucide-icon name="mail" size="24" class="icon"></lucide-icon>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="كلمة المرور" class="animate__animated animate__zoomIn">
+                <lucide-icon name="lock" size="24" class="icon"></lucide-icon>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm-password" placeholder="تأكيد كلمة المرور" class="animate__animated animate__zoomIn">
+                <lucide-icon name="lock" size="24" class="icon"></lucide-icon>
+            </div>
+            <button class="login-button animate__animated animate__zoomIn">تسجيل الدخول</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
